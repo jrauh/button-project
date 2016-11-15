@@ -1,0 +1,11 @@
+body { margin: 0; }
+
+section {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+
+  &.xbox { background-color: #100E0F; }
+  &.push-start { background-color: #45444a; }
+}

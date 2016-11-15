@@ -1,0 +1,17 @@
+@import "xbox";
+@import "push-start";
+
+button {
+  outline: none;
+}
+
+.button--container {
+  margin: 0 auto;
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+
+  height: auto;
+  width: auto;
+  display: inline-block;
+}

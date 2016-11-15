@@ -1,0 +1,77 @@
+$color-a: #57B341;
+$color-b: #E34F4B;
+$color-x: #0A8CD1;
+$color-y: #DEC205;
+
+.xbox--container {
+  margin: 0 auto;
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+}
+
+
+.xbox-buttons {
+  margin: 0 auto;
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+}
+
+.button--xbox {
+  @include user-select(none);
+  border-radius: 50%;
+  color: white;
+  border: 3px solid #000;
+  font-family: "Lato";
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 0;
+  outline: none;
+  position: absolute;
+  text-shadow: 1px 1px 4px rgba(26, 26, 32, 0.5);
+  height: 3rem;
+  width: 3rem;
+
+  background: rgba(83,81,84,1);/* Old Browsers */
+  @include linear-gradient(left, #444444 0%, black 25%, #4d4d5f 85%, #505050 100%);
+
+  &.a {
+    @include linear-gradient(left, #444444 0%, black 25%, #3f4c40 85%, #505050 100%);
+    color: $color-a;
+    top: calc(100% - 3rem);
+    left: calc(50% - 1.5rem);
+    &:active { color: rgba($color-a, 0.85); }
+  }
+
+  &.b {
+    @include linear-gradient(left, #444444 0%, black 25%, #5f4d4d 85%, #505050 100%);
+    color: $color-b;
+    right: 0;
+    top: calc(50% - 1.5rem);
+    &:active { color: rgba($color-b, 0.85); }
+  }
+
+  &.x {
+    @include linear-gradient(left, #444444 0%, black 25%, #454c61 85%, #505050 100%);
+    color: $color-x;
+    left: 0;
+    top: calc(50% - 1.5rem);
+    &:active { color: rgba($color-x, 0.85); }
+  }
+
+  &.y {
+    @include linear-gradient(left, #444444 0%, black 25%, #46463a 85%, #505050 100%);
+    color: $color-y;
+    top: 0;
+    left: calc(50% - 1.5rem);
+    &:active { color: rgba($color-y, 0.85); }
+  }
+
+  &:active {
+    @include linear-gradient(left, #252525 0%, #151515 25%, #3c3b3b 85%, #3a3939 100%);
+    text-shadow: none;
+    margin-top: 3px;
+    box-shadow: 0px -2px 0px #000000;
+  }
+}
