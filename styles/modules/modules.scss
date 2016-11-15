@@ -1,9 +1,6 @@
 @import "xbox";
 @import "push-start";
-
-button {
-  outline: none;
-}
+@import "keyboard";
 
 .button--container {
   margin: 0 auto;

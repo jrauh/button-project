@@ -1,3 +1,8 @@
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
 body {
   margin: 0; }
 
@@ -9,7 +14,9 @@ section {
   section.xbox {
     background-color: #100E0F; }
   section.push-start {
-    background-color: #1f1f21; }
+    background-color: #1F1F21; }
+  section.keyboard {
+    background-color: #6f7175; }
 
 .xbox--container {
   margin: 0 auto;
@@ -214,8 +221,27 @@ section {
   width: 6rem;
   margin: 1.1rem auto 0; }
 
-button {
-  outline: none; }
+.keyboard--container {
+  margin: 0 auto;
+  position: relative;
+  height: 5rem;
+  width: auto; }
+
+.button--keyboard {
+  background-color: #0E0E0E;
+  border: 2px solid #36393a;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px #d6eef3;
+  color: #d6eef3;
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 4rem;
+  margin: 0 0.3rem;
+  width: 4rem; }
+  .button--keyboard:active {
+    border: none;
+    box-shadow: 0 0 0 1px rgba(214, 238, 243, 0.29);
+    font-size: 1.45rem; }
 
 .button--container {
   margin: 0 auto;

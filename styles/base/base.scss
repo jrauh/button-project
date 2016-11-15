@@ -14,3 +14,9 @@
   background: -ms-linear-gradient($direction, $color1, $color2, $color3, $color4); /* IE 10+ */
   background: linear-gradient(to right, $color1, $color2, $color3, $color4);/* W3C */
 }
+
+button {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); //Removes gray overlay iOS Safari
+  -webkit-touch-callout: none; //Removes action panel in iOS Safari
+}
