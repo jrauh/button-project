@@ -9,7 +9,7 @@ section {
   section.xbox {
     background-color: #100E0F; }
   section.push-start {
-    background-color: #45444a; }
+    background-color: #1f1f21; }
 
 .xbox--container {
   margin: 0 auto;
@@ -207,7 +207,7 @@ section {
     margin-bottom: 0.8rem; }
   .button--push-start input:checked ~ label:before {
     background-color: #21D245;
-    box-shadow: 0 0 15px 1px rgba(114, 222, 167, 0.75); }
+    box-shadow: 0 0 10px 1px #72dea7; }
 
 .push-start-text {
   display: block;
