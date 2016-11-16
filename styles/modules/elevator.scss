@@ -2,6 +2,7 @@ $elevator--active: #FDFDF2;
 $elevator--inactive: #7E8A8A;
 
 .elevator--container {
+  @include user-select(none);
   margin: 0 auto;
   position: relative;
   height: auto;

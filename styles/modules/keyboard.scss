@@ -1,7 +1,8 @@
 .keyboard--container {
+  @include user-select(none);
   margin: 0 auto;
   position: relative;
-  height: auto;
+  height: 4rem;
   width: auto;
 }
 

@@ -229,9 +229,15 @@ section {
   margin: 1.1rem auto 0; }
 
 .keyboard--container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin: 0 auto;
   position: relative;
-  height: auto;
+  height: 4rem;
   width: auto; }
 
 .button--keyboard {
@@ -255,6 +261,12 @@ section {
     margin-top: 1px; }
 
 .elevator--container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin: 0 auto;
   position: relative;
   height: auto;
