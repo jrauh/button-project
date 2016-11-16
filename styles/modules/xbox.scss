@@ -18,11 +18,9 @@ $color-y: #DEC205;
 }
 
 .button--xbox {
-  @include user-select(none);
   border-radius: 50%;
   color: white;
   border: 3px solid #000;
-  font-family: "Lato";
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 0;
