@@ -27,8 +27,8 @@ $color-y: #DEC205;
   outline: none;
   position: absolute;
   text-shadow: 1px 1px 4px rgba(26, 26, 32, 0.5);
-  height: 3rem;
-  width: 3rem;
+  height: 3.2rem;
+  width: 3.2rem;
 
   background: rgba(83,81,84,1);/* Old Browsers */
   @include linear-gradient(left, #444444 0%, black 25%, #4d4d5f 85%, #505050 100%);
@@ -36,8 +36,8 @@ $color-y: #DEC205;
   &.a {
     @include linear-gradient(left, #444444 0%, black 25%, #3f4c40 85%, #505050 100%);
     color: $color-a;
-    top: calc(100% - 3rem);
-    left: calc(50% - 1.5rem);
+    top: calc(100% - 3.2rem);
+    left: calc(50% - 1.6rem);
     &:active { color: rgba($color-a, 0.85); }
   }
 
@@ -45,7 +45,7 @@ $color-y: #DEC205;
     @include linear-gradient(left, #444444 0%, black 25%, #5f4d4d 85%, #505050 100%);
     color: $color-b;
     right: 0;
-    top: calc(50% - 1.5rem);
+    top: calc(50% - 1.6rem);
     &:active { color: rgba($color-b, 0.85); }
   }
 
@@ -53,7 +53,7 @@ $color-y: #DEC205;
     @include linear-gradient(left, #444444 0%, black 25%, #454c61 85%, #505050 100%);
     color: $color-x;
     left: 0;
-    top: calc(50% - 1.5rem);
+    top: calc(50% - 1.6rem);
     &:active { color: rgba($color-x, 0.85); }
   }
 
@@ -61,7 +61,7 @@ $color-y: #DEC205;
     @include linear-gradient(left, #444444 0%, black 25%, #46463a 85%, #505050 100%);
     color: $color-y;
     top: 0;
-    left: calc(50% - 1.5rem);
+    left: calc(50% - 1.6rem);
     &:active { color: rgba($color-y, 0.85); }
   }
 

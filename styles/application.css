@@ -13,6 +13,7 @@ button {
   -webkit-touch-callout: none;
   font-family: "Lato";
   outline: none;
+  padding: 0;
   text-align: center; }
 
 body {
@@ -54,8 +55,8 @@ section {
   outline: none;
   position: absolute;
   text-shadow: 1px 1px 4px rgba(26, 26, 32, 0.5);
-  height: 3rem;
-  width: 3rem;
+  height: 3.2rem;
+  width: 3.2rem;
   background: #535154;
   /* Old Browsers */
   background: -moz-linear-gradient(left, #444444 0%, black 25%, #4d4d5f 85%, #505050 100%);
@@ -80,8 +81,8 @@ section {
     background: linear-gradient(to right, #444444 0%, black 25%, #3f4c40 85%, #505050 100%);
     /* W3C */
     color: #57B341;
-    top: calc(100% - 3rem);
-    left: calc(50% - 1.5rem); }
+    top: calc(100% - 3.2rem);
+    left: calc(50% - 1.6rem); }
     .button--xbox.a:active {
       color: rgba(87, 179, 65, 0.85); }
   .button--xbox.b {
@@ -97,7 +98,7 @@ section {
     /* W3C */
     color: #E34F4B;
     right: 0;
-    top: calc(50% - 1.5rem); }
+    top: calc(50% - 1.6rem); }
     .button--xbox.b:active {
       color: rgba(227, 79, 75, 0.85); }
   .button--xbox.x {
@@ -113,7 +114,7 @@ section {
     /* W3C */
     color: #0A8CD1;
     left: 0;
-    top: calc(50% - 1.5rem); }
+    top: calc(50% - 1.6rem); }
     .button--xbox.x:active {
       color: rgba(10, 140, 209, 0.85); }
   .button--xbox.y {
@@ -129,7 +130,7 @@ section {
     /* W3C */
     color: #DEC205;
     top: 0;
-    left: calc(50% - 1.5rem); }
+    left: calc(50% - 1.6rem); }
     .button--xbox.y:active {
       color: rgba(222, 194, 5, 0.85); }
   .button--xbox:active {
